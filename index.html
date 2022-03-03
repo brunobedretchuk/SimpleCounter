@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="CounterStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center"><h1>Basketball Counter</h1></div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-8 col-lg-4 colFirst">
+            <h2 id="scores"> <span id="p1"> </span> x <span id="p2"></span>  </h2>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-8 col-lg-4 p-0 colMid">
+            <img src="https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581678662/DCUK/Content/iStock-959080376.jpg" alt="BasketBall">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8 col-lg-4 colMid p-2">
+            <span> <b>Playing to: </b>
+                <form action="">
+            
+                <select class="form-select-sm" name="playingTo" id="playingTo">
+                    <option value="-1">?</option>
+                    
+                </select>
+            </form></span>
+                
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-8 col-lg-4 colBot">
+            <div class="row">
+            <div class="col p-0">
+            <button id="button1">+1 Player One</button></div>
+            <div class="col p-0">
+                <button id="button2">+1 Player Two</button></div>
+            <div class="col p-0">
+                <button id="button3">Reset</button>
+            </div>
+        </div>
+    
+
+        </div>    
+        </div>
+        <script src="CounterJava2.js"></script>
+        
+</body>
+</html>
